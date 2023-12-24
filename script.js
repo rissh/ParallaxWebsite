@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Get references to HTML elements with specific IDs
   let text = document.getElementById("text");
+  let leaf = document.getElementById("leaf"); // Reference to the 'leaf' element
   let hill1 = document.getElementById("hill1");
   let hill4 = document.getElementById("hill4");
   let hill5 = document.getElementById("hill5");
@@ -13,6 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Apply parallax effect to the 'text' element
     text.style.marginTop = value * 2.5 + "px";
+
+    // Apply parallax effect to the 'leaf' element by changing its top and left positions
+    leaf.style.top = value * -1.5 + "px";
+    leaf.style.left = value * 1.5 + "px";
 
     // Apply parallax effect to the 'hill5' element by changing its left position
     hill5.style.left = value * 1.5 + "px";
