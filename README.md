@@ -9,14 +9,14 @@ The website features various sections, including a sleek header with navigation 
 
 ## Features 🌟
 - **Parallax Scrolling:** Engage users with a captivating parallax effect on background elements.
-- **Responsive Design:** The website is designed to gracefully adapt to various screen sizes.
+- **Responsive Design:** The website is designed to adapt to various screen sizes gracefully.
 
 ## Usage 🚶‍♂️
 - Scroll through the website to experience the enchanting parallax effect.
 - Explore different sections to embark on a metaphorical journey conveyed by the content.
 
 ## Contributing 🤝
-Contributions are more than welcome! If you have creative ideas, suggestions, or want to contribute new features, feel free to open an issue or submit a pull request.
+Contributions are more than welcome! If you have creative ideas, or suggestions, or want to contribute new features, feel free to open an issue or submit a pull request.
 
 ## Author 🧑‍💻
 
