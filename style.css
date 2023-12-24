@@ -1,8 +1,102 @@
+/* Importing the Poppins font from Google Fonts with various weights */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+/* Resetting default styles and applying Poppins font to all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+/* Styling for the body element */
+body {
+  background: #f9f9f9;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Styling for the header section */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+}
+
+/* Styling for the logo */
+.logo {
+  font-size: 2rem;
+  color: #359381;
+  pointer-events: none;
+  margin-right: 270px;
+}
+
+/* Styling for navigation links */
+.navigation a {
+  text-decoration: none;
+  color: #359381;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0px 10px;
+  font-weight: 600;
+}
+
+/* Styling for navigation links on hover and when active */
+.navigation a:hover,
+.navigation a.active {
+  background: #359381;
+  color: #f9f9f9;
+}
+
+/* Styling for the parallax section */
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for the text in the parallax section */
+#text {
+  position: relative;
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for images in the parallax section */
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+/* Styling for the secondary section with background color and padding */
+.sec {
+  position: relative;
+  background-color: #003329;
+  padding: 100px;
+}
+
+/* Styling for heading in the secondary section */
+.sec h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* Styling for paragraphs in the secondary section */
+.sec p {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 300;
 }
